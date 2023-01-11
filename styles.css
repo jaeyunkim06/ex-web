@@ -1,0 +1,94 @@
+/*
+h1
+a:link
+.manythings
+#onething
+*
+.box p
+.box p:first-child
+h1, h2, .intro
+*/
+
+/*
+font-size
+width
+background-color
+color
+border
+*/
+
+/*
+calc 연산
+transform
+*/
+
+/*
+@rules
+@media
+*/
+h1{
+    color: red;
+    border-bottom: 3px solid black;
+}
+
+li{
+    list-style-type: circle;
+}
+h3.special{
+    color: purple;
+}
+
+/*하위 요소  li em
+
+이어서 나오는 h2 + p
+*/
+
+h2+p{
+    color:blueviolet;
+    font-size: large;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:link{
+    color: red;
+}
+
+aside{
+    background-color: skyblue;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+video{
+    width: 200;
+    height: auto;
+}
+
+iframe{
+    border: none;
+    width: 560; 
+    height: 315;
+}
+article{
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+article{
+    flex: 1;
+}
+article:nth-of-type(2){
+    flex: 2;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
