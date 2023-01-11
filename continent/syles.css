@@ -1,0 +1,15 @@
+tbody {
+    font-size: 95%;
+    font-style: italic;
+  }
+  
+tfoot {
+    font-weight: bold;
+}
+
+table{
+    border: solid 2px black; 
+    border-collapse: separate;
+    table-layout: fixed;
+}
+  
